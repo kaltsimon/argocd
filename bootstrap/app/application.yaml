@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/kaltsimon/argocd.git
     targetRevision: main
-    path: install
+    path: bootstrap/install
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
